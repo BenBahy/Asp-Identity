@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201708311936407_addedSSNField.Designer.cs">
       <DependentUpon>201708311936407_addedSSNField.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708312203584_tablesRename.cs" />
+    <Compile Include="Migrations\201708312203584_tablesRename.Designer.cs">
+      <DependentUpon>201708312203584_tablesRename.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -292,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708311936407_addedSSNField.resx">
       <DependentUpon>201708311936407_addedSSNField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708312203584_tablesRename.resx">
+      <DependentUpon>201708312203584_tablesRename.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
