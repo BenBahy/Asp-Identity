@@ -54,9 +54,9 @@ namespace BasicTemplate
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1854784394835527",
+               appSecret: "dc22e4cadbd394ecb0ef078f7ca835a4");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
